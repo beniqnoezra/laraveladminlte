@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProdukController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,9 +19,13 @@ Route::get('/', function () {
 });
 
 Route::get('/admindashboard', function () {
-    return view ('pages.admindashboard');
+    return view ('/pages/admindashboard');
 });
 
 Route::get('/master', function () {
-    return view ('templates.master');
+    return view ('/templates/master');
 });
+
+Route::get('/produk', [ProdukController::class, 'index']);
+
+Route::get('/produk/delete/{id}', [ProdukController::class, 'destroy'])->name('produkDelete');
