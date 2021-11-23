@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProdukController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +26,6 @@ Route::get('/master', function () {
     return view ('/templates/master');
 });
 
-Route::get('/produk', [ProdukController::class, 'index']);
+Route::get('/product', [productController::class, 'index']);
 
-Route::get('/produk/delete/{id}', [ProdukController::class, 'destroy'])->name('produkDelete');
+Route::get('/product/delete/{id}', [productController::class, 'destroy'])->name('productDelete');

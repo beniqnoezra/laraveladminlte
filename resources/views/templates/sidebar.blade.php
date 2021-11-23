@@ -47,22 +47,22 @@
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-                Produk
+                Product
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">6</span>
+                <span class="badge badge-info right">7</span>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="/produk" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Produk</p>
+                  <p>Data Products</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Create Produk</p>
+                  <p>Create Products</p>
                 </a>
               </li>
             </ul>
