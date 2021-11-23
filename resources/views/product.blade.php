@@ -63,6 +63,7 @@
               <th>Stock</th>
               <th>Price</th>
               <th>Category</th>
+              <th>Aksi</th>
             </tr>
           </thead>
           <tbody>

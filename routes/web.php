@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\CustomerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +31,11 @@ Route::get('/master', function () {
 Route::get('/product', [productController::class, 'index']);
 
 Route::get('/product/delete/{id}', [productController::class, 'destroy'])->name('productDelete');
+
+Route::get('/category', [categoryController::class, 'index']);
+
+Route::get('/category/delete/{id}', [categoryController::class, 'destroy'])->name('categoryDelete');
+
+Route::get('/customer', [customerController::class, 'index']);
+
+Route::get('/customer/delete/{id}', [customerController::class, 'destroy'])->name('customerDelete');

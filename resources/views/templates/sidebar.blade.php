@@ -54,15 +54,21 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/produk" class="nav-link active">
+                <a href="/product" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Products</p>
+                  <p>Products</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                <a href="/category" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Create Products</p>
+                  <p>Categories</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="customer" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Customers</p>
                 </a>
               </li>
             </ul>
